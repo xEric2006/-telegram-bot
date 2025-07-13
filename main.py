@@ -1,3 +1,5 @@
+import sys
+print("🐍 Running Python version:", sys.version)
 import os
 from telegram.ext import Updater, CommandHandler
 
